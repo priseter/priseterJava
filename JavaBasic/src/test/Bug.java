@@ -36,6 +36,7 @@ public class Bug {
 							System.out.println("정답입니다.");
 							System.out.println();
 							System.out.println("정말 대단하시네요."); // 게임 승리 문구
+							System.out.println();
 						}else { //  두 번째 답이 오답일시 진행 루트
 							System.out.println("구구단 공부 다시 하셔야겠어요.");
 							System.out.println("구구단 알려드릴테니 다시 공부하고 도전하세요!");
@@ -73,16 +74,16 @@ public class Bug {
 					System.out.println("다른 키를 입력시 처음으로 다시 돌아갑니다. ");
 					System.out.println();
 				}
-				System.out.println(); // 종료절차
-				System.out.println("종료하시려면 소문자 x를 입력해주세요. ");
-				System.out.println("다른 키를 입력시 처음으로 다시 돌아갑니다. ");
-				start = sc.next();
-				if(start.equals(end)) {//게임 종료 구문
-					realEnd = 0;
-				}else {// 다른 키 입력시 처음으로 다시 돌아가는 구문
-					System.out.println("다른 키를 눌러 처음으로 돌아갑니다.");
-					System.out.println();
-				}
+//				System.out.println(); // 종료절차
+//				System.out.println("종료하시려면 소문자 x를 입력해주세요. ");
+//				System.out.println("다른 키를 입력시 처음으로 다시 돌아갑니다. ");
+//				start = sc.next();
+//				if(start.equals(end)) {//게임 종료 구문
+//					realEnd = 0;
+//				}else {// 다른 키 입력시 처음으로 다시 돌아가는 구문
+//					System.out.println("다른 키를 눌러 처음으로 돌아갑니다.");
+//					System.out.println();
+//				} //원래는 게임 승리후 종료절차로 넘어가려했는데 굳이 필요없어서 주석처림 나름 코드 공부한거라 생각중
 	
 		} while(realEnd == 10); // 종료 조건 만족시 while의 realEnd가 10이 아닌 0으로 되어 Do while 구문 종료
 		System.out.println("즐겨주셔서 감사합니다."); //엔딩멘트
