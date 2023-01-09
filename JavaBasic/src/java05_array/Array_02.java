@@ -4,7 +4,7 @@ public class Array_02 {
 
 	public static void main(String[] args) {
 
-		int[] arr1; // 배율 변수 선언
+		int[] arr1; // 배열 변수 선언
 		arr1 = new int[5]; // 배열 공간 생성
 		// 원래 변수를 선언하면 그 변수안에 쓰레기값이 들어가있는데, new를 이용해 공간이 생성된 변수들은 쓰레기값을 가지지않고 자동으로 초기화한다.
 		// 따라서 arr[] 값에는 0이 들어간다.
