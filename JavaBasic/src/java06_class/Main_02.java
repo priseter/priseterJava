@@ -11,7 +11,8 @@ public class Main_02 {
 		System.out.println(cl.num2); //default
 //		System.out.println(cl.num1);
 		
-		// **private : 객체 내부에서만 사용가능한 공개범위
+		// **private : 객체 내부에서만 사용가능한 공개범위로 설정
+		
 	}
 
 }

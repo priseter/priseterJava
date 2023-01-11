@@ -21,3 +21,9 @@ public class Class_01 {
 	}
 	
 }
+//class Test{
+//	
+//}
+//class Test2{
+//	
+//}

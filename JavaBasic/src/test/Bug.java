@@ -2,8 +2,11 @@ package test;
 
 import java.util.Scanner;
 
+import java06_class.Class_02;
+
 public class Bug {
 	public static void main(String[] arg){
+		Class_02 cl = new Class_02();
 		Scanner sc = new Scanner(System.in);
 		//스캐너 생성
 		String start;
