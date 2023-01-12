@@ -20,6 +20,6 @@ public class GetSetEx {
 		//-----------------------------------------
 		
 		data.setName("Alice");
-		System.out.println( data.getName() );
+		System.out.println( data.getNAME());
 	}
 }

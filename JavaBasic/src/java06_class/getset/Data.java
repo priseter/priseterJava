@@ -18,7 +18,7 @@ public class Data {
 		// this를 입력하지 않는다면 가장 가까운 변수를 지칭하게된다.
 	}
 
-	public String getName() {
+	public String getNAME() {
 		return name;
 	}
 

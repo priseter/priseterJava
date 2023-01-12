@@ -37,6 +37,17 @@ public class ClassVariableEx {
 		ClassVariable_02.city = "Incheon";
 		System.out.println(ClassVariable_02.city);
 		System.out.println(ClassVariable_02.DATA);
+		System.out.println("-----지역변수 테스트-----");
+		
+		ClassVariable_03 cv06 = new ClassVariable_03();
+		ClassVariable_03 cv07 = new ClassVariable_03();
+		ClassVariable_03 cv08 = new ClassVariable_03();
+		
+		cv06.method();
+		cv07.method(0);
+		cv07.method(0);
+		cv08.method();
+		
 	}
 
 }
