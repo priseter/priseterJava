@@ -27,6 +27,10 @@ public class productEx {
 		
 		Product p2 = new Tv("LG", 500);
 		p2.out();
+		
+//		Product p3 = new Product("PROD",111);
+		// Product가 추상 클래스이기 때문에 인스턴스화 할 수 없다.
+		Product p4; // 변수 선언 까진가능하다. EU. 인스턴스화 한것은 아니기때문
 
 
 		

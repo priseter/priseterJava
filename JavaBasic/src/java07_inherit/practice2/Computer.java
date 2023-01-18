@@ -10,7 +10,7 @@ public class Computer extends Product {
 		super(model, price);
 	}
 	
-	@Override
+	@Override // 오버라이딩으로 구현시켜버린다. 추상 코드를 구현시키지 않으면 진행이 안되도록한다.
 	public void out() {
 		System.out.print(getModel());
 		System.out.print(", ");
