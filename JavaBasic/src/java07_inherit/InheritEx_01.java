@@ -26,8 +26,9 @@ class Child extends Parent{ // class [자식 클래스 이름] extends [부모 �
 //	public void display() {
 //		super.display();
 //		//super는 부모 메소드의 display를 가져온다라는 뜻이다.
-//	}
 	
+	
+//	}
 	public void display(int a) {
 		System.out.println("오버라이딩한 메소드를 오버로딩한 메소드");
 	}
