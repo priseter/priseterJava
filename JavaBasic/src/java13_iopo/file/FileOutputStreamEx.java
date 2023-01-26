@@ -17,10 +17,10 @@ public class FileOutputStreamEx {
 			//FileOutputStream fos = new FileOutputStream(file) 쓰기모드
 			//** 파일 출력 스트림 객체는 객체 생성될 때 출력 대상 파일이 없으면 생성해버린다.
 			
-			String msg = "Orange";
-			fos.write(msg.getBytes(),0,msg.length());
-			fos.flush();
-			System.out.println();
+//			String msg = "Orange";
+//			fos.write(msg.getBytes(),0,msg.length());
+//			fos.flush();
+//			System.out.println();
 			String re = sc.nextLine();
 			fos.write(re.getBytes(),0,re.length());
 			fos.flush();
